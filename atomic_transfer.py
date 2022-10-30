@@ -89,11 +89,3 @@ class AtomicTransfer:
 
 atomic_transfer = AtomicTransfer()
 atomic_transfer.group_transaction()
-
-
-# def transfer_details(self, sender, receiver, amount):
-#     sp = self.algod_client.suggested_params()
-#     txn = PaymentTxn(sender, sp, receiver, amount)
-#     print(f"Sending {amount} from {sender} to {receiver}")
-#     return txn.get_txid()
-
