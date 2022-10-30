@@ -1,4 +1,3 @@
-'''
 from algosdk import account, mnemonic
 
 
@@ -15,4 +14,3 @@ def get_mnemonics(num_of_accounts):
     for i in range(num_of_accounts):
         account_details[i] = Account()._get_mnemonic()
     return account_details
-'''
